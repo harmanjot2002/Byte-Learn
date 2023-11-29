@@ -1,0 +1,19 @@
+.MainCont{
+ display: flex;
+ flex-direction: column;
+ height: 80vh;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.bottom{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+}

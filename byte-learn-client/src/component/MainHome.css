@@ -1,0 +1,100 @@
+.page-container {
+    /* margin-top: 78px; */
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    background-image: url("https://cdn.thecodehelp.in/mctmmnscw4snaoc9kmnn_b35808d374.svg");
+    background-size: cover;
+  }
+  
+  .section {
+    height: 100%;
+  }
+  .background-image{
+    height: inherit;
+    width: inherit;
+  }
+  
+  .section1 {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .section2 {
+    flex: 50%;
+}
+.button1{
+    margin-top: 1.5rem;
+    width: 10rem;
+    height: 4rem;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.2rem;
+    background:var(--main-color);
+    color:var(--peace) !important;
+
+}
+/* .button1:hover{
+    margin-top: 1.3rem;
+    width: 10rem;
+    height: 4rem;
+    color: black;
+    border-radius: 6px;
+  
+    font-size: 1.2rem;
+    background-color:transparent;
+    border: 1px solid var(--main-color);
+
+} */
+
+.button2{
+    width: 10rem;
+    height: 4rem;
+    margin-left: 1.3rem;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.2rem;
+    background-color:transparent;
+    border: 1px solid var(--main-color);
+
+}
+/* .button2:hover{
+  width: 10rem;
+    height: 4rem;
+    margin-left: 1.3rem;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.2rem;
+    background:var(--main-color);
+    
+    color:var(--peace) !important;
+
+} */
+.linkc{
+    text-decoration: none;
+}
+.FontSize{
+    font-size: 3rem;
+  /*  text-transform: lowercase;*/
+}
+.FontSize2{
+    margin-top: -5px;
+    font-size: 2rem;
+    margin-left: -5px;
+    color:rgb(95, 91, 91);
+   
+}
+  @media screen and (max-width:1140px)
+  {
+  .page-container{
+    margin-top: 300px;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    background-size: 100%;
+  }
+
+  }

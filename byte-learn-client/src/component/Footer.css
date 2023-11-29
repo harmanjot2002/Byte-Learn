@@ -1,0 +1,80 @@
+.FootDiv{
+   background-color: var( --main-color);
+  
+   display: flex;
+    overflow-x: hidden;
+    color: white;
+    justify-content: space-evenly;
+  
+
+
+}
+.Mainm{
+    height: 60vh;
+    width: 99.1vw;
+    background-color: var( --main-color);
+}
+.div1{
+  margin-top: 7rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.div2{
+    margin-top: 7rem;
+    align-items: center;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+.div3{
+    margin-top: 7rem;
+    align-items: center;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+.div4{
+    margin-top: 7rem;
+    align-items: center;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+.Difhead{
+    margin-left: -9rem;
+}
+
+.last{
+     display: flex;
+     justify-content: center;
+     margin-top: 3rem;
+     color: white;
+}
+
+a:hover,li:hover{
+    color:var(--gray);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:1140px)
+  {
+    .FootDiv{
+        margin-top: 8rem;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        background-color: var( --main-color);
+    }
+    .Mainm{
+        height: 130vh;
+        width: 99.1vw;
+        background-color: var( --main-color);
+    }
+    .div2{
+        margin-left: -8rem;
+    }
+  }
