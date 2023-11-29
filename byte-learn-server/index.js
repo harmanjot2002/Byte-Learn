@@ -9,7 +9,7 @@ const app=express()
 app.use(express.json()) //This will convert data in json which we are transferring from frontend to backend
 app.use(cors(
     {
-        origin:["https://byte-learn-frontend.vercel.app/"],
+        origin:["https://byte-learn-frontend.vercel.app"],
         methods:["POST","GET"],
         credentials:true
     }
