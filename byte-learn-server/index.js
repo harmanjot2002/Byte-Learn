@@ -17,6 +17,10 @@ app.use(cors(
 
 mongoose.connect("mongodb+srv://Harman:Harman@cluster0.7zlcmek.mongodb.net/bytelearn");
 
+app.get('/',(req,res)=>{
+    res.json("Hello");
+})
+
 app.post('/login',(req,res)=>{
     const {email,password}=req.body;
     UserModel.findOne({email:email})
