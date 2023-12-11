@@ -3,7 +3,6 @@ import { FaComment, FaTimes } from 'react-icons/fa';
 import { FaRobot } from "react-icons/fa6";
 import { AiOutlineSend } from 'react-icons/ai';
 import './FacingIssue.css';
-import { ReactDOM } from 'react';
 
 const FacingIssue = () => {
   const [showChatbot, setShowChatbot] = useState(false);

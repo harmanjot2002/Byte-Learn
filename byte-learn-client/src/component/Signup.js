@@ -59,12 +59,13 @@ const Signup = () => {
         return Object.keys(errors).length === 0;
     };
 
-    axios.defaults.withCredentials=true;
+    // axios.defaults.withCredentials=true;
     const handleSubmit = async (e) => {
         e.preventDefault();
         if (validateForm()) {
           try {
-            const result = await axios.post('https://byte-learn-api.vercel.app/register', { name, email, password });
+            // const result = await axios.post('https://byte-learn-api.vercel.app/register', { name, email, password });
+            const result = await axios.post('http://localhost:3001/register', { name, email, password });
             console.log(result);
             // Wait for the showRegSuccessToast to complete before navigating
             await showRegSuccessToast();
