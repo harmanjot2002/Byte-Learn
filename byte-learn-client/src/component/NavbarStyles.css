@@ -17,6 +17,7 @@
 }
 .nav-menu{
     display: flex;
+    margin-bottom: 0 !important;
 }
 .nav-menu li{
     margin-top: 0.8rem;
