@@ -33,7 +33,7 @@ const Instructor = () => {
           <div className="slide-content">
             <div className="grid-container">
               <div className="image-column">
-                <img src="https://dgyugonj9a9mu.cloudfront.net/supreme_1_codehelp_5114b9ebd5.jpg" alt="Slide 1 Image" />
+                <img src="https://img.freepik.com/premium-photo/man-with-glasses-scarf-neck-standing-market_787273-203.jpg" alt="Slide 1 Image" />
               </div>
               <div className="text-column">
                 <h2>Rahul Kumar</h2>
@@ -47,7 +47,7 @@ const Instructor = () => {
           <div className="slide-content">
             <div className="grid-container">
               <div className="image-column">
-                <img src="https://dgyugonj9a9mu.cloudfront.net/supreme_1_codehelp_5114b9ebd5.jpg" alt="Slide 2 Image" />
+                <img src="https://img.freepik.com/premium-photo/digital-painting-man-wearing-hoodie-glasses_759095-16732.jpg?size=338&ext=jpg&ga=GA1.1.386372595.1698364800&semt=ais" alt="Slide 2 Image" />
               </div>
               <div className="text-column">
                 <h2>Sonali Singh</h2>
