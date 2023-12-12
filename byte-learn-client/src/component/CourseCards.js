@@ -1,6 +1,6 @@
-// CourseCards.js
 import React from 'react';
 import './CourseCardsStyles.css';
+import {Link} from 'react-router-dom';
 
 const CourseCards = () => {
   return (
@@ -23,7 +23,8 @@ const CourseCards = () => {
           </div>
         </div>
 
-        <div className="course">
+      <Link to="/webdev">
+      <div className="course">
           <img src="https://codehelp.s3.ap-south-1.amazonaws.com/Web_Dev_670f900667.jpg" alt="Course 2 Image" />
           <div className="course-info">
             <h2 className="course-title">Web Development Master Course @dot Batch</h2>
@@ -35,6 +36,8 @@ const CourseCards = () => {
             </div>
           </div>
         </div>
+      </Link>
+       
       </div>
     </>
   );
