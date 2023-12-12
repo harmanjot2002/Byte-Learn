@@ -1,11 +1,12 @@
 .navigation {
     display: flex;
     justify-content: space-evenly;
-    background-color: #b5bceb;
+    background-color: var(--second-bg-color);
     width: 60%;
-    border: 2px solid #6674cc;
+    border: 2px solid var(--main-color);
     margin: 20px auto;
     padding: 10px;
+    font-weight: bold;
   }
   
   .nav {
@@ -15,12 +16,33 @@
   }
   
   .nav-link {
+    margin:0 3rem;
     padding: 10px 20px;
     text-decoration: none;
     border:none;
-    color: #fff;    
+    color: var(--peace);    
   }
   
   .nav-link:hover {
-    color:#6674cc; 
+    color:var(--main-color); 
   }
+
+@media (max-width: 800px) {
+  .navigation {
+    padding: 4px 0;
+  }
+  
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-link {
+    display: block; 
+    margin:0 0;
+  }
+
+  .nav.active {
+    flex-direction: column;
+  }
+}

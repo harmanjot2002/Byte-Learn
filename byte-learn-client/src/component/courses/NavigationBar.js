@@ -1,12 +1,14 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useState } from 'react';
 import './NavigationBarStyles.css';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const NavigationBar = () => {
+  const [isActive, setIsActive] = useState(false);
+
   return (
-    <div className='navigation'>
-        <Link to="#overview" className="nav-link" >
+    <div className={`navigation ${isActive ? 'active' : ''}`}>
+      <div className="nav">
+        <Link to="#overview" className="nav-link">
           Overview
         </Link>
         <Link to="#coursecontent" className="nav-link">
@@ -18,6 +20,7 @@ const NavigationBar = () => {
         <Link to="#faqs" className="nav-link">
           FAQs
         </Link>
+      </div>
     </div>
   );
 };
