@@ -3,7 +3,7 @@ import './OverviewStyles.css';
 
 const Overview = () => {
   return (
-    <div className="overview">
+    <div className="overview" id="overview">
       <h5>What you will learn</h5>
       <div className="grid-container">
         <div className="left-column">
@@ -23,7 +23,36 @@ const Overview = () => {
           </ul>
         </div>
       </div>
+      <div className="details-container">
+      <h5 className="section-title">Basic Details</h5>
+      <table className="details-table">
+        <tbody>
+          <tr>
+            <td>Mode of the Course</td>
+            <td>Online Recorded Lectures</td>
+          </tr>
+          <tr>
+            <td>Technologies that you will learn</td>
+            <td>HTML, CSS, JavaScript, MongoDB, Express.js, React.js, Node.js</td>
+          </tr>
+          <tr>
+            <td>No. of Lectures</td>
+            <td>72</td>
+          </tr>
+          <tr>
+            <td>Class Recording Provided</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Course Validity</td>
+            <td>1.5 Years</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
+
+    </div>
+
   );
 };
 
