@@ -1,7 +1,7 @@
 .why{
     margin:4rem 7%;
 }
-h1{
+.why h1{
     color: var(--text-color);
     text-transform: uppercase;
     text-align: center;
