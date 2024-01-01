@@ -5,7 +5,6 @@ const UserModel=require('./models/Users')
 
 
 const app=express()
-
 app.use(express.json()) //This will convert data in json which we are transferring from frontend to backend
 app.use(cors());
 // app.use(cors(

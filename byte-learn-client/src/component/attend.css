@@ -1,0 +1,32 @@
+.attend-live{
+    height: 60vh;
+    width: 100vw;
+    /* background-color:blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cen{
+   font-size: 20px;
+}
+
+.inpfld{
+    margin-top: 6%;
+    border-radius: 6px;
+ 
+    /* border: none; */
+}
+.b{
+    margin-left: 15%;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    background: var(--main-color);
+    color: white;
+    margin-top: 9%;
+}
+
+.leb{
+    font-size: 20px;
+    display: block;
+}

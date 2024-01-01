@@ -16,7 +16,7 @@ const LiveLecture = () => {
               </div>
             </div>
     
-          <Link to="/webdev">
+          <Link to="/att">
           <div className="course">
               <img src="https://codehelp.s3.ap-south-1.amazonaws.com/Web_Dev_670f900667.jpg" alt="Course 2 Image" />
               <div className="course-info" style={{display:"flex",justifyContent:"center",alignItems:"center",color:"red",fontWeight:"bolder"}}>
