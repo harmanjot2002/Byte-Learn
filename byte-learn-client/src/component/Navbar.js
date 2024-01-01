@@ -8,8 +8,6 @@ const Navbar = () => {
   const handleClick=()=>setClick(!click);
  
   return (
-
-
     <div className="header">
       <div className="logo" style={{display:"flex"}}>
         <img src="./favicon.ico" alt="icon" height={40} width={50}/>
@@ -24,7 +22,7 @@ const Navbar = () => {
             <NavLink to="/courses">Courses</NavLink>
         </li>
         <li>
-            <NavLink to="/livelectures">Live Lectures</NavLink>
+            <NavLink to="/live">Live Lectures</NavLink>
         </li>
         <li>
             <Link to="/contact">Contact</Link>

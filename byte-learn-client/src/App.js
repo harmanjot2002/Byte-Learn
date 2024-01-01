@@ -8,6 +8,7 @@ import WebDev from './routes/WebDev';
 import { BrowserRouter as Router,Route, Routes } from "react-router-dom";
 import Login from './component/Login';
 import Signup from './component/Signup';
+import LiveLec from './routes/LiveLecture';
 
 const App = () => {
   const [showSplash, setShowSplash] = useState(true);
@@ -35,6 +36,7 @@ const App = () => {
           <Route path="/login" element={<Login />}/>
           <Route path="/register" element={<Signup />}/>
           <Route path="/courses" element={<Courses/>} />
+          <Route path="/live" element={<LiveLec/>} />
           <Route path="/webdev" element={<WebDev/>} />
         </Routes>
       </Router>
