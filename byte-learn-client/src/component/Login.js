@@ -53,11 +53,7 @@ const Login = ({onLogin}) => {
             console.log(result);
             if(result.data==="Success"){
                 await showLoginSuccessToast();
-<<<<<<< HEAD
-                onLogin(email); 
-=======
-                //  navigate('/', { state: { email } })
->>>>>>> ac215c89db03ae12c497af80f20a309924e718af
+                onLogin(email);
                 navigate('/');
             }
             else if(result.data==="No record existed"){

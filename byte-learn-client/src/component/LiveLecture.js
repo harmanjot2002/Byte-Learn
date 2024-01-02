@@ -16,12 +16,7 @@ const LiveLecture = () => {
                  <span>GO LIVE</span>
               </div>
             </div>
-    
-<<<<<<< HEAD
           <Link to="/attending">
-=======
-          <Link to="/att" >
->>>>>>> ac215c89db03ae12c497af80f20a309924e718af
           <div className="course">
               <img src="https://www.creativeitinstitute.com/images/course/course_1663052056.jpg" alt="Course 2 Image" />
               <div className="course-info" style={{display:"flex",justifyContent:"center",alignItems:"center",color:"red",fontWeight:"bolder"}}>
