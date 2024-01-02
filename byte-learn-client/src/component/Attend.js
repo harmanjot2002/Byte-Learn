@@ -21,6 +21,7 @@ const Attend = () => {
             <label htmlFor="roomcode" className='leb'>Enter the Room code: &nbsp;</label>
             <input type="text" value={roomCode} onChange={e=>setRoomCode(e.target.value)} id="roomcode" required placeholder='Enter the room code' className='inpfld' /><br /> 
             <button className='b'>Enter Room</button>
+           
         </div>
       </form>
       </div>

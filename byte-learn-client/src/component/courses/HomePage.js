@@ -68,7 +68,7 @@ const HomePage = () => {
         </div>
       </div>
       <div style={rightDivStyle} className="right">
-     
+         <img src="https://miro.medium.com/v2/resize:fit:1200/0*M4bxiCIjcTK-2Xr6.jpeg" alt="" width="130%" height="100%" style={{borderRadius:"40px"}}/>
       </div>
     </section>
   );
