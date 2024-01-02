@@ -6,7 +6,7 @@ import './Login.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const Login = () => {
+const Login = ({onLogin}) => {
     const [email,setEmail]=useState()
     const [password,setPassword]=useState()
     const navigate=useNavigate()
@@ -54,7 +54,8 @@ const Login = () => {
             console.log(result);
             if(result.data==="Success"){
                 await showLoginSuccessToast();
-                navigate('/')
+                onLogin(email); 
+                navigate('/');
             }
             else if(result.data==="No record existed"){
                 notifyrec();
@@ -67,6 +68,8 @@ const Login = () => {
             console.log(err);
         }
     }
+
+
 
   return (
     <div className="d-flex justify-content-center align-items-center vh-100 regi">

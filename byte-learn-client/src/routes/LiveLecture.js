@@ -4,10 +4,10 @@ import LiveLec from '../component/LiveLecture';
 import Footer from '../component/Footer';
 
 
-const LiveLecture = () => {
+const LiveLecture = ({loggedInUser}) => {
     return (
         <div>
-          <Navbar/>
+          <Navbar loggedInUser={loggedInUser}/>
           <LiveLec />
           <Footer/>
         </div>

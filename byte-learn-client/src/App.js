@@ -9,11 +9,13 @@ import { BrowserRouter as Router,Route, Routes } from "react-router-dom";
 import Login from './component/Login';
 import Signup from './component/Signup';
 import LiveLec from './routes/LiveLecture';
-import Att from './routes/Attend';
+import Attending from './routes/Attending';
 import RoomPage from '../src/component/room/RoomPage';
+// import Navbar from './component/Navbar';  // Import Navbar
 
 const App = () => {
   const [showSplash, setShowSplash] = useState(true);
+  const [loggedInUser, setLoggedInUser] = useState('');
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowSplash(false);
@@ -24,6 +26,11 @@ const App = () => {
     };
   }, []);
 
+  const handleLogin = (email) => {
+    console.log('Logged in user:', email);
+    setLoggedInUser(email);
+  };
+
   return (
     <div className="App">
    
@@ -33,14 +40,15 @@ const App = () => {
         <>
           <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/login" element={<Login />}/>
+          <Route path="/" element={<Home loggedInUser={loggedInUser}/>} />
+          <Route path="/contact" element={<Contact loggedInUser={loggedInUser}/>} />
+          <Route path="/login" element={<Login onLogin={handleLogin}/>}/>
           <Route path="/register" element={<Signup />}/>
-          <Route path="/courses" element={<Courses/>} />
-          <Route path="/live" element={<LiveLec/>} />
-          <Route path="/webdev" element={<WebDev/>} />
-          <Route path="/att" element={<Att/>} />
+          <Route path="/courses" element={<Courses loggedInUser={loggedInUser}/>} />
+          <Route path="/live" element={<LiveLec loggedInUser={loggedInUser}/>} />
+          <Route path="/webdev" element={<WebDev loggedInUser={loggedInUser}/>} />
+          <Route path="/attending" element={<Attending loggedInUser={loggedInUser} />} />
+          {/* <Route path="/attending" element={<Attending loggedInUser={loggedInUser} />} /> */}
           <Route path="/room/:roomId/:roomName" element={<RoomPage/>}/>
         </Routes>
       </Router>

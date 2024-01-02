@@ -8,10 +8,10 @@ import Instructors from "../component/courses/Instructors";
 import FAQs from "../component/courses/FAQs";
 import Footer from '../component/Footer';
 
-const WebDev = () => {
+const WebDev = ({loggedInUser}) => {
   return (
     <>
-      <Navbar/>
+      <Navbar loggedInUser={loggedInUser}/>
       <HomePage/>
       <NavigationBar/>
       <Overview/>

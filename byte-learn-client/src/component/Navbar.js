@@ -1,11 +1,15 @@
 import "./NavbarStyles.css"
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import {Link,NavLink} from "react-router-dom"
 import {FaBars,FaTimes} from "react-icons/fa";
 import {FiLogIn} from "react-icons/fi";
-const Navbar = () => {
+const Navbar = ({ loggedInUser }) => {
   const [click,setClick]=useState(false);
   const handleClick=()=>setClick(!click);
+
+  useEffect(() => {
+    console.log('loggedInUser in Navbar:', loggedInUser);
+}, [loggedInUser]);
  
   return (
     <div className="header">
@@ -30,6 +34,7 @@ const Navbar = () => {
         <li>
             <NavLink  to="/register"className="btn1" target="_blank" rel="noreferrer">Login<FiLogIn size={20} style={{color:'#fff'/*,marginLeft:"1rem",marginBottom:"-0.2rem" */,cursor:"pointer"}}/></NavLink>
         </li>
+        <li>{loggedInUser && `Welcome, ${loggedInUser}`}</li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {

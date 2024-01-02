@@ -7,11 +7,11 @@ import Reviews from '../component/MeetInstructors'
 import Footer from '../component/Footer';
 import FacingIssue from '../component/FacingIssue';
 
-const Home = () => {
+const Home = ({loggedInUser}) => {
   return (
     <>
       
-      <Navbar/>
+      <Navbar loggedInUser={loggedInUser}/>
       <FacingIssue/>
       <MainHome/>
       <Why/>

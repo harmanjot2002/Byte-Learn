@@ -3,10 +3,10 @@ import Navbar from "../component/Navbar";
 import ContactForm from '../component/ContactForm';
 import Footer from '../component/Footer';
 
-const Contact = () => {
+const Contact = ({loggedInUser}) => {
   return (
     <div>
-      <Navbar/>
+      <Navbar loggedInUser={loggedInUser}/>
       <ContactForm/>
       <Footer/>
     </div>
