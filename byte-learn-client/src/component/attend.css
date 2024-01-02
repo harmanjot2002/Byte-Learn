@@ -13,7 +13,6 @@
 .inpfld{
     margin-top: 6%;
     border-radius: 6px;
- 
     /* border: none; */
 }
 .b{
@@ -29,4 +28,17 @@
 .leb{
     font-size: 20px;
     display: block;
+}
+.inpfld2{
+    visibility: hidden;
+    position:absolute;
+}
+.bb1{
+    margin-left: 15%;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    background: var(--main-color);
+    color: white;
+    margin-top: -9%;
 }
