@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: var(--second-bg-color);
-    width: 60%;
+    width: 70%;
     border: 2px solid var(--main-color);
     margin: 20px auto;
     padding: 10px;

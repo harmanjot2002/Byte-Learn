@@ -19,7 +19,7 @@ const MainHome = () => {
 
  <div>
       <Link to="/courses" className='linkc'> <button className='button1' >View Courses</button></Link>
-      <Link to="/livelectures" className='linkc'> <button className='button2'>Watch Videos</button></Link>
+      <Link to="/live" className='linkc'> <button className='button2'>Join Live Lecture</button></Link>
         </div>
     </div>
    
