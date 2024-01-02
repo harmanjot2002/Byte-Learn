@@ -1,6 +1,7 @@
 import React from 'react'
 import './CourseCardsStyles.css';
 import {Link} from 'react-router-dom';
+
 const LiveLecture = () => {
     return (
         <>
@@ -10,15 +11,15 @@ const LiveLecture = () => {
     
           <div className="containers">
             <div className="course">
-              <img src="https://dgyugonj9a9mu.cloudfront.net/supreme_1_codehelp_5114b9ebd5.jpg" alt="Course 1 Image" />
+              <img src="https://miro.medium.com/v2/resize:fit:1200/1*-EFdnPuVrwUOmYte11v0OA.png" alt="Course 1 Image" />
               <div className="course-info" style={{display:"flex",justifyContent:"center",alignItems:"center",color:"red",fontWeight:"bolder"}}>
                  <span>GO LIVE</span>
               </div>
             </div>
     
-          <Link to="/att">
+          <Link to="/att" >
           <div className="course">
-              <img src="https://codehelp.s3.ap-south-1.amazonaws.com/Web_Dev_670f900667.jpg" alt="Course 2 Image" />
+              <img src="https://www.creativeitinstitute.com/images/course/course_1663052056.jpg" alt="Course 2 Image" />
               <div className="course-info" style={{display:"flex",justifyContent:"center",alignItems:"center",color:"red",fontWeight:"bolder"}}>
                  <span>GO LIVE</span>
               </div>

@@ -10,7 +10,6 @@ const Login = () => {
     const [email,setEmail]=useState()
     const [password,setPassword]=useState()
     const navigate=useNavigate()
-
     const notifyrec=()=>{
         // toast("🤯 User doesn't exist");
         toast.error("User doesn't exist", {
@@ -54,7 +53,8 @@ const Login = () => {
             console.log(result);
             if(result.data==="Success"){
                 await showLoginSuccessToast();
-                navigate('/')
+                //  navigate('/', { state: { email } })
+                navigate('/');
             }
             else if(result.data==="No record existed"){
                 notifyrec();

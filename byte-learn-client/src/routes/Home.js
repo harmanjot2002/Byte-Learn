@@ -8,11 +8,12 @@ import Footer from '../component/Footer';
 import FacingIssue from '../component/FacingIssue';
 
 const Home = () => {
+
   return (
     <>
       
       <Navbar/>
-      <FacingIssue/>
+      <FacingIssue />
       <MainHome/>
       <Why/>
       <Reviews/>

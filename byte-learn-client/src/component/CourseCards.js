@@ -11,7 +11,7 @@ const CourseCards = () => {
 
       <div className="containers">
         <div className="course">
-          <img src="https://dgyugonj9a9mu.cloudfront.net/supreme_1_codehelp_5114b9ebd5.jpg" alt="Course 1 Image" />
+          <img src="https://miro.medium.com/v2/resize:fit:1200/1*-EFdnPuVrwUOmYte11v0OA.png" alt="Course 1 Image" />
           <div className="course-info">
             <h2 className="course-title">Data Structure & Algorithms BootCamp @Supreme Batch</h2>
             <p className="course-description"></p>
@@ -25,7 +25,7 @@ const CourseCards = () => {
 
       <Link to="/webdev">
       <div className="course">
-          <img src="https://codehelp.s3.ap-south-1.amazonaws.com/Web_Dev_670f900667.jpg" alt="Course 2 Image" />
+          <img src="https://www.creativeitinstitute.com/images/course/course_1663052056.jpg" alt="Course 2 Image" />
           <div className="course-info">
             <h2 className="course-title">Web Development Master Course @dot Batch</h2>
             <p className="course-description"></p>
