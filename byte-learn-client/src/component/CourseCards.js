@@ -10,6 +10,7 @@ const CourseCards = () => {
       </header>
 
       <div className="containers">
+      <Link to="/webdev">
         <div className="course">
           <img src="https://miro.medium.com/v2/resize:fit:1200/1*-EFdnPuVrwUOmYte11v0OA.png" alt="Course 1 Image" />
           <div className="course-info">
@@ -22,6 +23,7 @@ const CourseCards = () => {
             </div>
           </div>
         </div>
+        </Link>
 
       <Link to="/webdev">
       <div className="course">
