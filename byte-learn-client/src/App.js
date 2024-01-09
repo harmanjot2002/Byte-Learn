@@ -11,7 +11,8 @@ import Signup from './component/Signup';
 import LiveLec from './routes/LiveLecture';
 import Attending from './routes/Attending';
 import RoomPage from '../src/component/room/RoomPage';
-// import Navbar from './component/Navbar';  // Import Navbar
+import Videeo from './component/recordedvdo';
+
 
 const App = () => {
   const [showSplash, setShowSplash] = useState(true);
@@ -50,6 +51,7 @@ const App = () => {
           <Route path="/attending" element={<Attending loggedInUser={loggedInUser} />} />
           {/* <Route path="/attending" element={<Attending loggedInUser={loggedInUser} />} /> */}
           <Route path="/room/:roomId/:roomName" element={<RoomPage/>}/>
+          <Route path="/videeo" element={<Videeo />}/>
         </Routes>
       </Router>
         

@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import './CourseContent.css';
 import 'font-awesome/css/font-awesome.min.css';
+import { Link} from "react-router-dom";
 
 const CourseContent = () => {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
@@ -63,7 +64,7 @@ const CourseContent = () => {
           </div>
 
           <div className={`downpara ${isDropdownVisible ? 'show' : ''}`}>
-            <p className='downn'><i className="fa fa-video-camera" aria-hidden="true"></i>Setting up tools, Introduction to Web Development, Basics of HTML</p>
+          <Link to="/videeo"> <p className='downn'><i className="fa fa-video-camera" aria-hidden="true"></i>Setting up tools, Introduction to Web Development, Basics of HTML</p></Link>
             <p className='downn'><i className="fa fa-video-camera" aria-hidden="true"></i>Understanding and Handling Forms and Input</p>
             <p className='downn'><i className="fa fa-video-camera" aria-hidden="true"></i>Selectors and Introduction to Styling, Different types of CSS</p>
           </div>
