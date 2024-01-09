@@ -1,4 +1,4 @@
-******Byte Learn - Learning Management System 🚀******
+****Byte Learn - Learning Management System 🚀****
 
 ****Introduction:****
 Byte Learn is a dynamic Learning Management System (LMS) tailored to deliver an immersive learning experience. Elevating the learning journey, Byte Learn integrates features like a splash screen, live classes using Zego Cloud, email notifications through EmailJS, Swiper.js for a carousel-like effect, and OpenAI API for advanced chatbot functionalities. Hosted on Vercel and leveraging MongoDB for secure login and registration, Byte Learn stands as a versatile platform for educators and learners alike.
