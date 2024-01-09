@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 
-const URI=process.env.MONGODB_URI;
+const URI="mongodb+srv://Harman:Harman@cluster0.7zlcmek.mongodb.net/bytelearn";
 
 
 const connectDb=async()=>{
