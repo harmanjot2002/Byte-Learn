@@ -8,14 +8,14 @@ const connectDb=require("./utils/db");
 
 const app=express()
 app.use(express.json()) //This will convert data in json which we are transferring from frontend to backend
-app.use(cors());
-// app.use(cors(
-//     {
-//         origin:["https://byte-learn-frontend.vercel.app"],
-//         methods:["POST","GET"],
-//         credentials:true
-//     }
-// ))
+// app.use(cors());
+app.use(cors(
+    {
+        origin:["https://byte-learn-frontend.vercel.app"],
+        methods:["POST","GET"],
+        credentials:true
+    }
+))
 
 // mongoose.connect("mongodb+srv://Harman:Harman@cluster0.7zlcmek.mongodb.net/bytelearn");
 
