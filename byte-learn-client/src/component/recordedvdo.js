@@ -6,9 +6,7 @@ const recordedvdo = () => {
   return (
     <div>
       <div className='viddiv'>
-       <video className='vidm' controls>
-       <source src='https://drive.google.com/uc?id=11yGFo0xSXzoCVWbga4_cYO79xu5ERwGh
-' type="video/mp4"/></video>
+      <iframe src="https://drive.google.com/file/d/1zXf7WU9Fj6MHR5gg_C7bD5dVeVB_n9ea/preview" className='vidm' allow="autoplay"></iframe>
       </div>
     </div>
   )
