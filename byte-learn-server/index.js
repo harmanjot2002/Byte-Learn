@@ -41,7 +41,7 @@ app.post('/login',(req,res)=>{
     })
 })
 
-app.post('/',async(req,res)=>{
+app.post('/register',async(req,res)=>{
     try {
         const existingUser = await UserModel.findOne({ email: req.body.email });
         if (existingUser) {

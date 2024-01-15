@@ -41,11 +41,11 @@ const App = () => {
         <>
           <Router>
         <Routes>
-          <Route path="/" element={<Signup />} />
-          <Route path="/home" element={<Home loggedInUser={loggedInUser}/>} />
+          {/* <Route path="/" element={<Signup />} /> */}
+          <Route path="/" element={<Home loggedInUser={loggedInUser}/>} />
           <Route path="/contact" element={<Contact loggedInUser={loggedInUser}/>} />
           <Route path="/login" element={<Login onLogin={handleLogin}/>}/>
-          {/* <Route path="/register" element={<Signup />}/> */}
+          <Route path="/register" element={<Signup />}/>
           <Route path="/courses" element={<Courses loggedInUser={loggedInUser}/>} />
           <Route path="/live" element={<LiveLec loggedInUser={loggedInUser}/>} />
           <Route path="/webdev" element={<WebDev loggedInUser={loggedInUser}/>} />

@@ -64,7 +64,7 @@ const Signup = () => {
         e.preventDefault();
         if (validateForm()) {
           try {
-            const result = await axios.post('https://byte-learn-api.vercel.app/', { name, email, password });
+            const result = await axios.post('https://byte-learn-api.vercel.app/register', { name, email, password });
             // const result = await axios.post('http://localhost:3001/register', { name, email, password });
             console.log(result);
             // Wait for the showRegSuccessToast to complete before navigating
@@ -81,7 +81,7 @@ const Signup = () => {
         }
       };
       
-   // This is comment    
+   
 
   return (
     <div className="d-flex justify-content-center align-items-center mh-100 vh-100 regi">

@@ -54,7 +54,7 @@ const Login = ({onLogin}) => {
             if(result.data==="Success"){
                 await showLoginSuccessToast();
                 onLogin(email);
-                navigate('/home');
+                navigate('/');
             }
             else if(result.data==="No record existed"){
                 notifyrec();
