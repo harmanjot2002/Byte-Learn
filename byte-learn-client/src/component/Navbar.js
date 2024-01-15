@@ -33,7 +33,12 @@ const Navbar = ({ loggedInUser }) => {
           <NavLink to="/courses">Courses</NavLink>
         </li>
         <li>
-          <NavLink to="/live">Live Lectures</NavLink>
+        {loggedInUser ? (
+       <NavLink to="/live">Live Lectures</NavLink>
+      ) : (
+        <NavLink to="/register"></NavLink>
+      )}
+          
         </li>
         <li>
           <Link to="/contact">Contact</Link>
