@@ -33,12 +33,13 @@ const Navbar = ({ loggedInUser }) => {
           <NavLink to="/courses">Courses</NavLink>
         </li>
         <li>
-        {loggedInUser ? (
+          {/* <NavLink to="/live">Live Lectures</NavLink> */}
+          <Navbar loggedInUser={loggedInUser} />
+      {loggedInUser? (
        <NavLink to="/live">Live Lectures</NavLink>
       ) : (
-        <NavLink to="/register"></NavLink>
+        <NavLink to="/register">Live Lectures</NavLink>
       )}
-          
         </li>
         <li>
           <Link to="/contact">Contact</Link>
