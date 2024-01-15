@@ -17,7 +17,7 @@ const Navbar = ({ loggedInUser }) => {
     const username = email.split('@')[0];
     return username;
   };
-
+// git ki shaktiyo ka glt istemal karnege ab hum 
   return (
     <div className="header">
       <div className="logo" style={{ display: "flex" }}>
