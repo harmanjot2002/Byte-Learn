@@ -34,7 +34,6 @@ const Navbar = ({ loggedInUser }) => {
         </li>
         <li>
           {/* <NavLink to="/live">Live Lectures</NavLink> */}
-          <Navbar loggedInUser={loggedInUser} />
       {loggedInUser? (
        <NavLink to="/live">Live Lectures</NavLink>
       ) : (
