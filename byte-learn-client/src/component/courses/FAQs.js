@@ -5,7 +5,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 const FAQs = () => {
   const [isDropdownVisible10, setDropdownVisible10] = useState(false);
-
+ 
   const toggleDropdown10 = () => {
     setDropdownVisible10(!isDropdownVisible10);
   };
