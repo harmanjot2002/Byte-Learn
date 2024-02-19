@@ -18,8 +18,8 @@ const MainHome = () => {
         <h2 className='FontSize2'>The Ultimate Guide to Ace <br />SDE Interviews</h2>
 
  <div>
-      <Link to="/courses" className='linkc'> <button className='button1' >View Courses</button></Link>
-      <Link to="/contact" className='linkc'> <button className='button2'>Contact Us</button></Link>
+ <Link to="https://task-manager-phi-red.vercel.app/" className='linkc'> <button className='button1' >Meet Your Deadlines </button></Link>
+      {/* <Link to="/contact" className='linkc'> <button className='button2'>Manage Your tasks</button></Link> */}
         </div>
     </div>
    

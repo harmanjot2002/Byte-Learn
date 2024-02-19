@@ -30,6 +30,9 @@ const Navbar = ({ loggedInUser }) => {
           <NavLink to="/">About Us</NavLink>
         </li>
         <li>
+          <NavLink to="https://h4-schools-i417ri8hp-dikshas-projects-d934dc05.vercel.app/" target="_blank">Docs</NavLink>
+        </li>
+        <li>
           <NavLink to="/courses">Courses</NavLink>
         </li>
         <li>
