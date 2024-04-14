@@ -25,7 +25,7 @@ const MainHome = () => {
    
     <div className="section section2">
     <img
-        src="https://png.pngtree.com/element_our/20190531/ourmid/pngtree-vector-cartoon-girl-working-image_1320827.jpg"
+        src="https://i.pinimg.com/736x/fa/7e/6e/fa7e6e04b27bb2cfb7670a24eb743be9.jpg"
         alt="Animated"
         className="background-image"
       />
