@@ -25,7 +25,7 @@ const MainHome = () => {
    
     <div className="section section2">
     <img
-        src="https://p7.hiclipart.com/preview/51/881/163/programmer-source-code-clip-art-computer.jpg"
+        src="https://png.pngtree.com/element_our/20200609/ourmid/pngtree-children-s-software-programming-image_2230759.jpg"
         alt="Animated"
         className="background-image"
       />
